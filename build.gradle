@@ -7,7 +7,7 @@ plugins {
 
 project.ext {
    javaMainClass = 'Main'
-   versionNumber = '0.1.0'
+   project.version = '0.1.0'
 }
 
 repositories {
@@ -40,9 +40,9 @@ run {
 jar {
     manifest {
         attributes 'Main-Class': javaMainClass
-        attributes 'Implementation-Version': project.versionNumber
+        attributes 'Implementation-Version': project.version
     }
-    archiveFileName = "javafx-gui-decorator-${project.versionNumber}.jar"
+    archiveFileName = "${project.name}-${project.version}.jar"
 }
 
 task fatJar (type: Jar) {
