@@ -1,4 +1,4 @@
-package dev.graumann.javafx.gui.decorator;
+package dev.graumann.guidecorator;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -6,7 +6,7 @@ import javafx.scene.input.KeyCombination;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import dev.graumann.javafx.gui.decorator.controller.GUIDecoratorController;
+import dev.graumann.guidecorator.controller.GUIDecoratorController;
 
 import java.io.IOException;
 

@@ -6,8 +6,8 @@ plugins {
 }
 
 project.ext {
-   javaMainClass = 'dev.graumann.javafx.gui.decorator.Main'
-   project.version = '0.1.1'
+   javaMainClass = 'dev.graumann.guidecorator.Main'
+   project.version = '0.2.0'
 }
 
 repositories {

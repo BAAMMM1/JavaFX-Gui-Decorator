@@ -1,4 +1,4 @@
-package dev.graumann.javafx.gui.decorator;
+package dev.graumann.guidecorator;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import dev.graumann.javafx.gui.decorator.GUIDecorator;
+import dev.graumann.guidecorator.GUIDecorator;
 
 
 public class Main extends Application {
