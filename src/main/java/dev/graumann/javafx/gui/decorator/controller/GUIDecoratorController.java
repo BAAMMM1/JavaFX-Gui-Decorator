@@ -1,4 +1,4 @@
-package controller;
+package dev.graumann.javafx.gui.decorator.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

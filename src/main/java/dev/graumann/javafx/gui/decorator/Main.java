@@ -1,3 +1,5 @@
+package dev.graumann.javafx.gui.decorator;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
@@ -6,11 +8,12 @@ import javafx.scene.Scene;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import dev.graumann.javafx.gui.decorator.GUIDecorator;
 
 
 public class Main extends Application {
 
-    private static final String UNDECORATED_VIEW_PATH = "fxml/UserContentSample.fxml";
+    private static final String UNDECORATED_VIEW_PATH = "/fxml/UserContentSample.fxml";
 
     @Override
     public void start(Stage primaryStage) throws Exception {
