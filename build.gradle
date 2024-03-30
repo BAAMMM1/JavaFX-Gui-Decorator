@@ -43,7 +43,7 @@ jar {
         attributes 'Main-Class': javaMainClass
         attributes 'Implementation-Version': project.version
     }
-    archiveFileName = "${project.name}-${project.version}.jar"
+    archiveFileName = "${project.name}-${project.version}-SNAPSHOT.jar"
 }
 
 task fatJar (type: Jar) {

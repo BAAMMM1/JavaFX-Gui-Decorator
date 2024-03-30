@@ -15,6 +15,18 @@ Windows:
 .\gradlew.bat run
 ```
 
+## Hot to create jar file?
+Linux:
+```
+./gradlew jar
+```
+
+Windows:
+```
+.\gradlew.bat jar
+```
+
+
 ## Hot use ist?
 **Example:**
 
