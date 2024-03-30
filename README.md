@@ -16,7 +16,8 @@ Windows:
 ```
 
 ## Hot use ist?
-*Example:*
+**Example:**
+
 ´´´
 package dev.graumann.slideannotationenhancer;
 
