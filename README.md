@@ -18,7 +18,7 @@ Windows:
 ## Hot use ist?
 **Example:**
 
-´´´
+```
 package dev.graumann.slideannotationenhancer;
 
 import javafx.application.Application;
@@ -69,4 +69,4 @@ public class App extends Application {
         Application.launch(args);
     }
 }
-´´´
+```
