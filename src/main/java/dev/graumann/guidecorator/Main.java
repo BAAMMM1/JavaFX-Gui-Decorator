@@ -13,7 +13,8 @@ import dev.graumann.guidecorator.GUIDecorator;
 
 public class Main extends Application {
 
-    private static final String UNDECORATED_VIEW_PATH = "/fxml/UserContentSample.fxml";
+    private static final String RESOURCES_ROOT_PATH = "/dev/graumann/guidecorator/";
+    private static final String UNDECORATED_VIEW_PATH = RESOURCES_ROOT_PATH + "fxml/UserContentSample.fxml";
 
     @Override
     public void start(Stage primaryStage) throws Exception {

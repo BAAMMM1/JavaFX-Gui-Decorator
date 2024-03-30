@@ -23,7 +23,9 @@ GUIDecorator hinzugefügt wird.
  */
 public class GUIDecorator {
 
-    private static final String WRAPPER_VIEW_PATH = "/fxml/GUIWrapper.fxml";
+    private static final String RESOURCES_ROOT_PATH = "/dev/graumann/guidecorator/";
+    private static final String WRAPPER_VIEW_PATH = RESOURCES_ROOT_PATH + "fxml/GUIWrapper.fxml";
+    private static final String STYLE_CSS = RESOURCES_ROOT_PATH + "css/titlebar-default.css";
 
     private static final String SVG_ICON_TITELBAR_LOGO = "M11.99 18.54l-7.37-5.73L3 14.07l9 7 9-7-1.63-1.27zM12 16l7.36-5.73L21 9l-9-7-9 7 1.63 1.27L12 16zm0-11.47L17.74 9 12 13.47 6.26 9 12 4.53z";
     private static final String SVG_ICON_TITELBAR_FULLSCREEN = "M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z";
@@ -63,7 +65,7 @@ public class GUIDecorator {
 
         gUIDecoratorController.setLblStageTitelText(stage.getTitle());
 
-        this.addStyleSheet("/css/titlebar-default.css");
+        this.addStyleSheet(STYLE_CSS);
 
         this.setTitelbarSVGIconContent(SVG_ICON_TITELBAR_LOGO);
         this.setTitelbarSVGFullscreenContent(SVG_ICON_TITELBAR_FULLSCREEN);
