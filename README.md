@@ -1,8 +1,8 @@
 # JavaFX Gui Decorator
-Used to decorate my JavaFx projects
+Used to decorate my JavaFx projects.
 
 ## Requirements
-- Java JDK v21 installed on your machine
+- Java JDK v21 installed on your machine.
 
 ## How to run?
 Linux:
