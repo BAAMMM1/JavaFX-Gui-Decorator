@@ -34,7 +34,6 @@ Windows:
 ```
 
 ## Hot use ist?
-**Example:**
 Import the GUIDecorator into your app as a library using Gradle.
 
 ```
@@ -43,7 +42,7 @@ dependencies {
 }
 ```
 
-Now you can decorate the primaryStage.
+Now you can decorate the primaryStage as shown above.
 
 ```
 public class App extends Application {
