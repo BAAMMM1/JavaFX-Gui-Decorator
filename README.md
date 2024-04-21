@@ -34,7 +34,7 @@ Windows:
 ```
 
 ## Hot use ist?
-Import the GUIDecorator into your app as a library using Gradle.
+Create the JAR file and import the GUIDecorator into your app as a library using Gradle.
 
 ```
 dependencies {
