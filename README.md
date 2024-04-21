@@ -2,7 +2,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white)
 
 ## Description
-Used to decorate my JavaFx projects.
+Used for decorating my JavaFX projects.
 
 ![](https://github.com/BAAMMM1/JavaFX-Gui-Decorator/blob/9e1551850ef61178f55a8c508c673cc1c5a07392/images/teaser.png)
 
@@ -10,6 +10,8 @@ Used to decorate my JavaFx projects.
 - Java JDK v21 installed on your machine.
 
 ## How to run?
+You can run it as an example, but it's intended to be used as a library.
+
 Linux:
 ```
 ./gradlew run
@@ -33,6 +35,15 @@ Windows:
 
 ## Hot use ist?
 **Example:**
+Import the GUIDecorator into your app as a library using Gradle.
+
+```
+dependencies {
+    implementation files('libs/javafx-gui-decorator-0.2.1-SNAPSHOT.jar')
+}
+```
+
+Now you can decorate the primaryStage.
 
 ```
 public class App extends Application {
