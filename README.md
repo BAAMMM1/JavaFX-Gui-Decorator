@@ -22,7 +22,7 @@ Windows:
 .\gradlew.bat run
 ```
 
-## How to create jar file?
+## How to create a jar file?
 Linux:
 ```
 ./gradlew jar
@@ -33,7 +33,7 @@ Windows:
 .\gradlew.bat jar
 ```
 
-## How use ist?
+## How do you use it?
 Create the JAR file and import the GUIDecorator into your app as a library using Gradle.
 
 ```
