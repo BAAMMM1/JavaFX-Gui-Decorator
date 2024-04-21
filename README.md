@@ -42,7 +42,7 @@ dependencies {
 }
 ```
 
-Now you can decorate the primaryStage as shown above.
+Now you can decorate the primaryStage as shown below.
 
 ```
 public class App extends Application {
